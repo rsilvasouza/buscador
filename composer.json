@@ -1,0 +1,15 @@
+{
+    "name": "rsilvasouza/buscador",
+    "description": "Projeto que busca cursos no site",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael da Silva Souza",
+            "email": "rj.souzarafael@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler":"^4.2"
+    }
+}
