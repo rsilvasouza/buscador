@@ -6,10 +6,12 @@ use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador{
+
     /**
      * @var ClientInterface
      */
     private $httpClient;
+
     /**
      * @var Crawler
      */
@@ -34,6 +36,8 @@ class Buscador{
             $cursos[] = $elemento->textContent;
 
         }
+
+        return $cursos;
     }
 
 }
