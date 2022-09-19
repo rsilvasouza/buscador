@@ -17,5 +17,8 @@
         "psr-4": {
             "Buscador\\BuscadorDeCursos\\":"src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
